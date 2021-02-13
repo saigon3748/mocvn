@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MỘC VN</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <script type="text/javascript" src="/javascripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery-migrate-3.0.0.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.appear.js"></script>
+    <script type="text/javascript" src="/javascripts/popper.min.js"></script>
+    <script type="text/javascript" src="/javascripts/bootstrap.js"></script>
+    <script type="text/javascript" src="/javascripts/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="/javascripts/custom.js"></script>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="73">
+    <%= yield %>
+  </body>
+</html>
