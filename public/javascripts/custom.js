@@ -337,8 +337,8 @@
 	/* ---------------------------------------------- /*
 	 * All Functions
 	/* ---------------------------------------------- */
-    // loadScript
-    var plugin_track = 'javascripts/';
+  // loadScript
+  var plugin_track = 'javascripts/';
 	var _arr  = {};
 	function loadScript(scriptName, callback) {
 	    if (!_arr[scriptName]) {
